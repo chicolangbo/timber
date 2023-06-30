@@ -36,7 +36,7 @@ void EffectGo::Update(float dt)
 		return;
 	}
 
-	SpriteGo::Update(dt);
+	//SpriteGo::Update(dt);
 	velocity += gravity * dt; // 임의로 일정 시간마다 떨어질 y좌표 높이...? 속력?
 	SetPosition(position + velocity * dt);
 }

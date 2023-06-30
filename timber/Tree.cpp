@@ -110,7 +110,7 @@ void Tree::Update(float dt)
 
 	// USING CODE
 	auto it = logEffects.begin();
-	while (it != logEffects.end())
+	while (it != logEffects.end()) // 비어있지 않으면
 	{
 		if ((*it)->GetActive())
 		{
